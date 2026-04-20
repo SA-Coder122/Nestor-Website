@@ -1,470 +1,155 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Contact Nestor Plumbing Works - Get Professional Help in Accra
-    </title>
-    <meta
-      name="description"
-      content="Contact Nestor Plumbing Works in Accra. Emergency plumbing services available 24/7."
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- ===========================
-       NAVBAR COMPONENT
-       =========================== -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-content">
-          <a href="index.html" class="navbar-brand">
-            <img
-              src="logo.jpg"
-              alt="Nestor Plumbing Works"
-              class="navbar-logo"
-            />
-            <span>Nestor</span>
-          </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Nestor Plumbing Works | Emergency Plumbing Ghana</title>
+  <meta name="description" content="Call or WhatsApp Nestor Plumbing Works for emergency plumbing in Accra. Map, contact form, and 24/7 response. Odorkor plumbing services.">
+  <meta name="keywords" content="Plumber in Accra, Emergency plumbing Ghana, Odorkor plumbing services, contact plumber Ghana">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pre-header">
+    <div class="container pre-header-inner">
+      <a href="tel:+233249536716"><i class="fa-solid fa-phone" aria-hidden="true"></i> +233 24 953 6716</a>
+      <a href="mailto:nestorplumbingworks@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> nestorplumbingworks@gmail.com</a>
+      <span class="pre-header-pill"><i class="fa-solid fa-clock" aria-hidden="true"></i> 24/7 Emergency Service</span>
+    </div>
+  </div>
 
-          <div class="navbar-nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="index.html#services">Services</a>
-          </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><i class="fa-solid fa-faucet-drip logo-icon" aria-hidden="true"></i> Nestor Plumbing Works</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="btn btn-primary nav-cta" href="tel:+233249536716"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call Now</a>
+      </nav>
+    </div>
+  </header>
 
-          <div class="navbar-cta">
-            <button
-              class="btn btn-primary btn-sm"
-              onclick="initiateCall('024 953 6716')"
-            >
-              <i class="fas fa-phone"></i> Call Now
-            </button>
-          </div>
+  <div class="emergency-bar" role="region" aria-label="Emergency contact">
+    <div class="container emergency-bar-inner">
+      <p><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> <strong>Emergency?</strong> Call now — 24/7 plumber in Accra.</p>
+      <a class="btn btn-sm btn-on-dark" href="tel:+233249536716"><i class="fa-solid fa-phone" aria-hidden="true"></i> +233 24 953 6716</a>
+    </div>
+  </div>
+
+  <main class="page-main page-main-contact">
+    <section class="section section-tight">
+      <div class="container page-hero-inner reveal">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Get in touch</p>
+          <h1>Speak with a Plumber in Accra Today</h1>
+          <p class="lead">Message, call, or visit — we keep communication clear so you always know what happens next on your job.</p>
         </div>
-      </div>
-    </nav>
-
-    <!-- ===========================
-       PAGE HEADER
-       =========================== -->
-    <section class="page-header">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <p>
-          Have a plumbing issue? Get in touch with our team. We're here to help
-          24/7.
-        </p>
-      </div>
-    </section>
-
-    <!-- ===========================
-       CONTACT CONTENT
-       =========================== -->
-    <section
-      style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl)"
-    >
-      <div class="container">
-        <div class="two-column" data-animate>
-          <!-- Contact Form -->
-          <div>
-            <h2 style="margin-bottom: var(--space-2xl)">Send us a Message</h2>
-            <form data-form>
-              <div class="form-group">
-                <label class="form-label" for="name">Your Name</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="phone">Phone Number</label>
-                <input
-                  class="form-input"
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="email">Email Address</label>
-                <input
-                  class="form-input"
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="service">Service Needed</label>
-                <select
-                  class="form-select"
-                  id="service"
-                  name="service"
-                  required
-                >
-                  <option value="">Select a service...</option>
-                  <option value="emergency">Emergency Repairs</option>
-                  <option value="installation">
-                    Installation & Maintenance
-                  </option>
-                  <option value="drain">Drain Cleaning</option>
-                  <option value="water-line">Water Line Repair</option>
-                  <option value="bathroom">Bathroom Fixtures</option>
-                  <option value="inspection">Home Inspection</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="message">Message</label>
-                <textarea
-                  class="form-textarea"
-                  id="message"
-                  name="message"
-                  required
-                ></textarea>
-              </div>
-
-              <div class="form-group">
-                <div class="checkbox-group">
-                  <input
-                    type="checkbox"
-                    id="urgent"
-                    name="urgent"
-                    value="yes"
-                  />
-                  <label for="urgent">This is urgent</label>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-accent btn-lg">
-                <i class="fas fa-envelope"></i> Send Message
-              </button>
-            </form>
+        <div class="contact-hero-aside">
+          <div class="contact-photo-stack">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=400&q=80" alt="Plumber at work" width="400" height="400" loading="eager">
+            <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=400&q=80" alt="Pipe repair" width="400" height="400" loading="lazy">
           </div>
-
-          <!-- Contact Info -->
-          <div>
-            <h2 style="margin-bottom: var(--space-2xl)">Get in Touch</h2>
-
-            <div class="card" style="margin-bottom: var(--space-2xl)">
-              <div class="contact-info">
-                <div class="contact-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Call Us</h4>
-                  <p>
-                    <a href="tel:024 953 6716">024 953 6716</a>
-                  </p>
-                  <p
-                    style="
-                      font-size: var(--font-size-xs);
-                      color: var(--text-tertiary);
-                    "
-                  >
-                    Available 24/7 for emergencies
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card" style="margin-bottom: var(--space-2xl)">
-              <div class="contact-info">
-                <div class="contact-icon">
-                  <i class="fab fa-whatsapp"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>WhatsApp Us</h4>
-                  <p>
-                    <a href="https://wa.me/233249536716" target="_blank">
-                      Message on WhatsApp
-                    </a>
-                  </p>
-                  <p
-                    style="
-                      font-size: var(--font-size-xs);
-                      color: var(--text-tertiary);
-                    "
-                  >
-                    Quick response to your message
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card" style="margin-bottom: var(--space-2xl)">
-              <div class="contact-info">
-                <div class="contact-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Our Location</h4>
-                  <p>Nii Adaman Street</p>
-                  <p>Accra, Ghana</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="contact-info">
-                <div class="contact-icon">
-                  <i class="fas fa-clock"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Hours</h4>
-                  <p>Open 24 Hours</p>
-                  <p
-                    style="
-                      font-size: var(--font-size-xs);
-                      color: var(--text-tertiary);
-                    "
-                  >
-                    Including weekends and holidays
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div class="page-hero-img">
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" alt="Professional plumbing installation" width="800" height="450" loading="lazy">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===========================
-       MAP PLACEHOLDER
-       =========================== -->
-    <section
-      style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl)"
-    >
-      <div class="container">
-        <h2 style="margin-bottom: var(--space-2xl); text-align: center">
-          Find Us on the Map
-        </h2>
-        <div
-          data-animate
-          style="
-            background: linear-gradient(
-              135deg,
-              rgba(30, 58, 138, 0.1),
-              rgba(255, 140, 66, 0.1)
-            );
-            border-radius: 12px;
-            border: 1px solid rgb(51, 51, 51);
-            padding: 64px 48px;
-            text-align: center;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          "
-        >
-          <div
-            style="
-              font-size: 80px;
-              color: var(--primary-light);
-              margin-bottom: var(--space-lg);
-            "
-          >
-            <i class="fas fa-map"></i>
+    <section class="section section-alt">
+      <div class="container contact-split reveal">
+        <article class="card card-contact-info">
+          <h2>Contact Information</h2>
+          <ul class="contact-info-list">
+            <li><span class="ci-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></span> <a href="tel:+233249536716">+233 24 953 6716</a></li>
+            <li><span class="ci-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span> <a href="mailto:nestorplumbingworks@gmail.com">nestorplumbingworks@gmail.com</a></li>
+            <li><span class="ci-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span> Nii Adaman St, Accra</li>
+          </ul>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://wa.me/233249536716" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+            <a class="btn btn-outline" href="tel:+233249536716"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i> Call now</a>
           </div>
-          <h3 style="margin-bottom: var(--space-md)">
-            Nii Adaman Street, Accra
-          </h3>
-          <p style="color: var(--text-secondary); margin: 0; max-width: 500px">
-            Visit us at our location or call for directions. We're centrally
-            located and easy to find.
-          </p>
-          <a
-            href="https://maps.google.com/?q=Nii+Adaman+Street+Accra"
-            target="_blank"
-            class="btn btn-primary"
-            style="margin-top: var(--space-2xl)"
-          >
-            <i class="fas fa-directions"></i> Get Directions
-          </a>
-        </div>
+        </article>
+
+        <article class="card">
+          <h2>Request Service</h2>
+          <form class="contact-form" action="https://formsubmit.co/nestorplumbingworks@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Plumbing Request - Website">
+            <input type="hidden" name="_captcha" value="false">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required autocomplete="tel">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Describe the issue, location in Accra, and urgency"></textarea>
+
+            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send request</button>
+          </form>
+        </article>
       </div>
     </section>
 
-    <!-- ===========================
-       WHATSAPP CTA SECTION
-       =========================== -->
-    <section
-      style="
-        padding-top: var(--space-3xl);
-        padding-bottom: var(--space-3xl);
-        background-color: var(--bg-secondary);
-        border-top: 1px solid var(--border-color);
-        border-bottom: 1px solid var(--border-color);
-      "
-      data-animate
-    >
-      <div class="container">
-        <div style="text-align: center">
-          <h2 style="margin-bottom: var(--space-lg)">
-            Quick Response on WhatsApp
-          </h2>
-          <p
-            style="
-              font-size: var(--font-size-lg);
-              color: var(--text-secondary);
-              max-width: 600px;
-              margin: 0 auto var(--space-2xl);
-            "
-          >
-            Get instant responses to your plumbing questions. Send a message
-            directly on WhatsApp.
-          </p>
-          <a
-            href="https://wa.me/233249536716"
-            target="_blank"
-            class="btn btn-accent btn-lg"
-          >
-            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
-          </a>
+    <section class="section">
+      <div class="container reveal">
+        <h2><i class="fa-solid fa-map" aria-hidden="true"></i> Find Us in Accra</h2>
+        <p class="section-intro">Google Maps helps landlords and homeowners verify we are a real, reachable operation — not a one-off number.</p>
+        <div class="map-wrap">
+          <iframe
+            title="Nestor Plumbing Works location in Accra"
+            src="https://www.google.com/maps?q=Nii+Adaman+St,+Accra&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
+  </main>
 
-    <!-- ===========================
-       CTA SECTION
-       =========================== -->
-    <section class="cta-section" data-animate>
-      <div class="container">
-        <h2>Emergency? Call Immediately!</h2>
-        <p>
-          Don't wait for a response. For urgent plumbing issues, call us right
-          away.
-        </p>
-        <div class="cta-buttons">
-          <button
-            class="btn btn-accent btn-lg"
-            onclick="initiateCall('024 953 6716')"
-          >
-            <i class="fas fa-phone"></i> Call: 024 953 6716
-          </button>
-        </div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo-footer" href="index.html">Nestor Plumbing Works</a>
+        <p>Reliable, professional plumbing you can trust — <strong>24/7</strong>.</p>
+        <p class="copyright">&copy; <span id="year"></span> Nestor Plumbing Works.</p>
       </div>
-    </section>
-
-    <!-- ===========================
-       FOOTER COMPONENT
-       =========================== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <!-- About -->
-          <div class="footer-section">
-            <h4>Nestor Plumbing</h4>
-            <p
-              style="
-                font-size: var(--font-size-sm);
-                margin: 0;
-                color: var(--text-secondary);
-              "
-            >
-              Professional plumbing services in Accra, available 24/7. Your
-              trusted partner for all plumbing needs.
-            </p>
-          </div>
-
-          <!-- Quick Links -->
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="index.html#services">Services</a></li>
-            </ul>
-          </div>
-
-          <!-- Services -->
-          <div class="footer-section">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#">Emergency Repairs</a></li>
-              <li><a href="#">Installations</a></li>
-              <li><a href="#">Drain Cleaning</a></li>
-              <li><a href="#">Maintenance</a></li>
-            </ul>
-          </div>
-
-          <!-- Contact Info -->
-          <div class="footer-section">
-            <h4>Contact Info</h4>
-            <ul>
-              <li>
-                <a href="tel:024 953 6716"
-                  ><i class="fas fa-phone"></i> 024 953 6716</a
-                >
-              </li>
-              <li>
-                <a href="https://wa.me/233249536716"
-                  ><i class="fab fa-whatsapp"></i> WhatsApp</a
-                >
-              </li>
-              <li>
-                <i class="fas fa-map-marker-alt"></i> Nii Adaman Street, Accra
-              </li>
-              <li><i class="fas fa-clock"></i> Open 24 Hours</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="footer-divider"></div>
-
-        <div class="footer-bottom">
-          <p class="footer-copyright">
-            © <span data-year></span> Nestor Plumbing Works. All rights
-            reserved.
-          </p>
-          <div class="footer-socials">
-            <a
-              href="https://wa.me/233249536716"
-              class="social-link"
-              title="WhatsApp"
-              target="_blank"
-            >
-              <i class="fab fa-whatsapp"></i>
-            </a>
-            <a
-              href="mailto:info@nestorplumbing.com"
-              class="social-link"
-              title="Email"
-              target="_blank"
-            >
-              <i class="fas fa-envelope"></i>
-            </a>
-            <a
-              href="#"
-              class="social-link"
-              title="Phone"
-              onclick="initiateCall('024 953 6716')"
-            >
-              <i class="fas fa-phone"></i>
-            </a>
-          </div>
-        </div>
+      <div>
+        <h3 class="footer-heading">Quick links</h3>
+        <ul class="footer-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
-    </footer>
+      <div>
+        <h3 class="footer-heading">Services</h3>
+        <ul class="footer-list">
+          <li><a href="services.html">Emergency</a></li>
+          <li><a href="services.html">Installation</a></li>
+          <li><a href="services.html">Materials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Stay connected</h3>
+        <ul class="footer-social">
+          <li><a href="https://facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://wa.me/233249536716" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <a class="mobile-call" href="tel:+233249536716"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call Now</a>
+  <script src="script.js"></script>
+</body>
 </html>
